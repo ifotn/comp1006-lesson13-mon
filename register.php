@@ -17,9 +17,13 @@ require_once('header.php'); ?>
         <label for="confirm" class="col-sm-2">Confirm Password:</label>
         <input type="password" name="confirm" />
     </div>
+    <div class="g-recaptcha" data-sitekey="6LcPmgQTAAAAAO8CDeB-fKKVyUOikLev1GR-LORv"></div>
     <div class="col-sm-offset-2">
         <input type="submit" value="Register" class="btn btn-primary" />
     </div>
 </form>
+
+<!-- link to google js api -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <?php require_once('footer.php'); ?>
